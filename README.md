@@ -1,10 +1,10 @@
 # Thrive-Assignment
 
 ## OBJECTIVE:
-The goal of this task was to integrate data from three source tables in a SQLite database:
-1.users
-2.conversation_start
-3.conversation_part
+The goal of this task was to integrate data from three source tables in a SQLite database:  
+1.users  
+2.conversation_start  
+3.conversation_part  
 ---> single unified table called consolidated_messages (named as consolidated_messages_final.csv)
 
 ## Query to create the consolidated_messages.csv 
