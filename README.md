@@ -25,10 +25,10 @@ conversation_id = the id of each conversation thread
 email = the email of the message sender  
 message = the message content  
 message_type = the type of the message  
-***part_id = the identifier from parts which will help in normalizing the table  
+***part_id = Identifier for normalizing; 0 for start, actual id for parts 
 created_at = timestamp associated with each interaction  
 
-***part_id = for start, 0 is appended while for parts we capture id from the table.  
+***part_id = 0 is used for "open" messages to maintain referential consistency during normalization.  
 
 ## Data Model  
 
